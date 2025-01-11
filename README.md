@@ -2,6 +2,8 @@
 
 # Test Trello API
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 Trello-like API written in [TypeScript](https://www.typescriptlang.org/) using [NestJS](https://nestjs.com/), [PostgreSQL](https://www.postgresql.org/), [Prisma](https://www.prisma.io/)
 
 Authentication with [JWT](https://jwt.io/) access tokens
