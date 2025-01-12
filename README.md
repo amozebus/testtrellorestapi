@@ -10,15 +10,15 @@ Authentication with [JWT](https://jwt.io/) access tokens
 
 </div>
 
-## How to launch
+## How to launch (execute in root of repository destination)
 
-1. Install dependencies
+1. Install dependencies:
 
 ```sh
 npm i
 ```
 
-2. Rename `.env.example` to `.env` and fill fields
+2. Rename `.env.example` to `.env` and fill fields:
 
 ```sh
 mv .env.example .env
@@ -34,14 +34,16 @@ mv .env.example .env
     DATABASE_URL: database URL
     ```
 
-3. Aplly DB migrations
+3. Apply DB migrations:
 
 ```sh
 npm run migrate
 ```
 ## Misc
 
-* Drop DB
+* [DB structure](https://dbdiagram.io/d/Test-Trello-API-677c1ab332a2da11cf22b432)
+
+* Drop DB:
 
 ```sh
 npm run reset
