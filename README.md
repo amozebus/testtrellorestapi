@@ -1,10 +1,10 @@
 <div align="center">
 
-# Test Trello API
+# Test Trello REST API
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-Trello-like API written in [TypeScript](https://www.typescriptlang.org/) using [NestJS](https://nestjs.com/), [PostgreSQL](https://www.postgresql.org/), [Prisma](https://www.prisma.io/)
+Trello-like REST API written in [TypeScript](https://www.typescriptlang.org/) using [NestJS](https://nestjs.com/), [PostgreSQL](https://www.postgresql.org/), [Prisma](https://www.prisma.io/)
 
 Authentication with [JWT](https://jwt.io/) access tokens
 
@@ -34,7 +34,7 @@ mv .env.example .env
     DATABASE_URL: database URL
     ```
 
-3. Apply DB migrations:
+3. Run DB migrations:
 
 ```sh
 npm run migrate
